@@ -1,0 +1,30 @@
+  _  _____       _          _____            _  
+ | |/  ___|     | |        |_   _|          | | 
+/ __) `--.  __ _| | ___  ___ | | __ ___  __/ __)
+\__ \`--. \/ _` | |/ _ \/ __|| |/ _` \ \/ /\__ \
+(   /\__/ / (_| | |  __/\__ \| | (_| |>  < (   /
+ |_|\____/ \__,_|_|\___||___/\_/\__,_/_/\_\ |_| 
+                                                
+  _____        ___             _______        ____                 
+ / ___/__  ___/ (_)__  ___ _  / ___/ /  ___ _/ / /__ ___  ___ ____ 
+/ /__/ _ \/ _  / / _ \/ _ `/ / /__/ _ \/ _ `/ / / -_) _ \/ _ `/ -_)
+\___/\___/\_,_/_/_//_/\_, /  \___/_//_/\_,_/_/_/\__/_//_/\_, /\__/ 
+                     /___/                              /___/      
+ 
+--------------------------------------------------------------------
+ 
+This application calculates sales tax for a group of items, which is
+known as a cart, and returns an itemized receipt with amount tax and total.
+The program operates under the following provided rules:
+
+Basic sales tax is applicable at a rate of 10% on all goods, except books, food,
+and medical products that are exempt. Import duty is an additional sales tax applicable 
+on all imported goods at a rate of 5%, with no exemptions.
+ 
+When I purchase items I receive a receipt which lists the name of all the items and 
+their price (including tax), finishing with the total cost of the items, and the total 
+amounts of sales taxes paid. The rounding rules for sales tax are that for a tax rate of n%, 
+a shelf price of p contains (np/100 rounded up to the nearest 0.05) amount of sales tax.
+
+See the README.txt for more details.
+

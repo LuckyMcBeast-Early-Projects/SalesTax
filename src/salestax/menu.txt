@@ -1,0 +1,10 @@
+
+<-----------Menu Options----------->
+
+<1 - Process Cart From File>
+<2 - Generate New Cart File>
+<3 - Display Cart Directory Contents>
+<4 - Process All Carts in Directory>
+<5 - Exit>
+ 
+<Press Option # followed by ENTER>
